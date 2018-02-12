@@ -6,6 +6,8 @@
 - Up to 256k of program mem
 - Pure TTY terminal, no inherent backspace support
 
+# Note: Redo memmap
+
 ## Memory map
 
 - `$0000 - $6799` - RAM
@@ -26,3 +28,4 @@
   - Header
   - Program page 0
   - Other data
+
